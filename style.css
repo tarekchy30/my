@@ -315,8 +315,10 @@ nav .social-link{
 
 .portfolio .portfo-items{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;  
+    align-items: flex-start; 
+    gap: 20px;                
+   
 }
 
 .portfolio .portfo-items .item{
@@ -328,7 +330,6 @@ nav .social-link{
     box-shadow: 0 5px 32px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
 }
-
 .portfolio .portfo-items .item:hover{
     border-color: #06dc1f;
 }
